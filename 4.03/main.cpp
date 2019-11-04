@@ -47,7 +47,7 @@ void spirala()                                                //wypelnienie tabl
 }
 void standard() {
     for (int i = 0; i < MAX; i++) {
-        for (int j = 0; j < MAX; j++)                                 //wypelnienie tablicy - metoda standardowa
+        for (int j = 0; j < MAX; j++)                                
         {
             t[i][j] = i * MAX + j;
         }
